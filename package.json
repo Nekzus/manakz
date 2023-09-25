@@ -1,0 +1,49 @@
+{
+  "name": "manakz",
+  "version": "0.0.0",
+  "description": "Manakz is a versatile command-line assistant designed to streamline common project-related tasks. It simplifies opening a project in Visual Studio Code, managing dependencies, and starting a development server. With Manakz, you can enhance your development workflow and save time on essential project setup steps.",
+  "main": "bin/openpj.js",
+  "engines": {
+    "node": ">=15"
+  },
+  "bin": {
+    "manakz": "bin/openpj.js"
+  },
+  "scripts": {
+    "start": "node bin/openpj.js",
+    "commit": "git-cz",
+    "semantic-release": "semantic-release --branches main"
+  },
+  "keywords": [
+    "open project",
+    "Visual Studio Code",
+    "manage dependencies",
+    "development server",
+    "project setup",
+    "streamlined workflow",
+    "project assistant",
+    "project toolkit",
+    "command-line tool",
+    "project automation",
+    "project configuration",
+    "development environment"
+  ],
+  "author": "nekzus",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.6",
+    "yargs": "^17.7.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0",
+    "semantic-release": "^22.0.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
