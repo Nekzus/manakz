@@ -1,6 +1,6 @@
 {
   "name": "manakz",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "Manakz is a versatile command-line assistant designed to streamline common project-related tasks. It simplifies opening a project in Visual Studio Code, managing dependencies, and starting a development server. With Manakz, you can enhance your development workflow and save time on essential project setup steps.",
   "main": "bin/openpj.js",
   "engines": {
@@ -48,7 +48,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nekzus/manakz.git"
+    "url": "https://github.com/Nekzus/manakz.git"
   },
   "bugs": {
     "url": "https://github.com/Nekzus/manakz/issues"
