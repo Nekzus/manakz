@@ -45,5 +45,13 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nekzus/manakz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nekzus/manakz/issues"
+  },
+  "homepage": "https://github.com/Nekzus/manakz#readme"
 }
