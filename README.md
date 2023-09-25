@@ -1,6 +1,6 @@
-manakz - Console Project Helper
-=========
-[![NPM version](https://badge.fury.io/js/manakz.svg)](http://badge.fury.io/js/manakz)
+# manakz - Console Project Helper
+
+[![GitHub version](https://badge.fury.io/gh/Nekzus%2Fmanakz.svg)](https://badge.fury.io/gh/Nekzus%2Fmanakz)
 [![npm](https://img.shields.io/npm/dm/manakz.svg?maxAge=2592000)]()
 
 manakz is a command-line tool designed to simplify common project-related tasks. It helps you open your project in Visual Studio Code, install dependencies if needed, and start a development server.
@@ -9,25 +9,46 @@ manakz is a command-line tool designed to simplify common project-related tasks.
 
 You can install manakz globally using npm:
 
-```bash
+```
 npm install -g manakz
 ```
 
 ## Usage
 
-Navigate to your project directory and run the manakz command:
+### Interactive Mode
 
-```bash
-manakz
+To harness the power of **Manakz**, navigate to your project directory and run the command:
+
+```
+manakz   |>  Activate Interactive Mode Console
 ```
 
 manakz will guide you through the following steps:
 
 1. Confirm if you want to continue.
-2. Open the project in Visual Studio Code.
-3. Install project dependencies if they are not already installed.
-4. Start the development server using the appropriate package manager (npm, pnpm, or yarn).
-5. Release common development ports if they are in use.
+2. Option accept all prompts.
+3. Open the project in Visual Studio Code.
+4. Install project dependencies if they are not already installed.
+5. Start the development server using the appropriate package manager (npm, pnpm, or yarn).
+6. Release common development ports if they are in use.
+
+### Automatic Mode
+
+```
+manakz [flags]
+```
+
+### Available Flags
+
+```
+-h, --help |> Displays this help message.
+-v, --version |> Displays the version of manakz.
+-y, --yes |> Executes actions without user prompts, answering 'yes' to all questions.
+
+-y -i, --yes --install |> Bypass installation of dependencies if not already present.
+-y -s, --yes --start |> Bypass initialization of the development server.
+-y -c, --yes --vscode |> Bypass opening the project in Visual Studio Code.
+```
 
 ## Features
 
