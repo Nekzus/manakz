@@ -8,6 +8,7 @@ yarn-error.log
 
 # Carpetas específicas de sistemas de construcción
 /dist/
+/test/
 /.next/
 /.nuxt/
 out/

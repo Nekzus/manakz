@@ -2,12 +2,12 @@
 
 const { openProject } = require("../lib/openpj");
 const { configureYargs } = require("../lib/cli");
-const colors = require("colors");
+const { customColors } = require("../lib/helpers/utils");
 
 const main = async () => {
   const argv = configureYargs().argv;
   try {
-    console.log(colors.green("Starting Manakz..."));
+    console.log(customColors.success("Starting Manakz..."));
     const options = {
       install: argv.install || argv.i,
       start: argv.start || argv.s,
@@ -15,9 +15,9 @@ const main = async () => {
       yesToAll: argv.yes || argv.y,
     };
     await openProject(options);
-    console.log(colors.green("🤟 Manakz completed successfully!"));
+    console.log(customColors.success("🤟 Manakz completed successfully!"));
   } catch (error) {
-    console.error(colors.red("👎 An error occurred:"), error.message);
+    console.error(customColors.error("👎 An error occurred:"), error.message);
     process.exit(1);
   }
 };
