@@ -1,6 +1,6 @@
 # manakz - Console Project Helper
 
-[![Github Workflow](https://github.com/nekzus/manakz/actions/workflows/publish.yml/badge.svg)](https://github.com/Nekzus/manakz/actions/workflows/publish.yml)
+[![Github Workflow](https://github.com/nekzus/manakz/actions/workflows/publish.yml/badge.svg?event=push)](https://github.com/Nekzus/manakz/actions/workflows/publish.yml)
 [![npm version](https://img.shields.io/npm/v/manakz.svg)](https://www.npmjs.com/package/manakz)
 [![npm](https://img.shields.io/npm/dm/manakz.svg)](https://www.npmjs.com/package/manakz)
 
