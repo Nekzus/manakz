@@ -2,12 +2,16 @@ module.exports = {
   env: {
     commonjs: true,
     es2021: true,
-    node: true,
+    node: true
   },
-  extends: "standard",
+  extends: 'standard',
+  plugins: [commonjs],
   overrides: [],
   parserOptions: {
-    ecmaVersion: "latest",
+    ecmaVersion: 'latest'
   },
-  rules: {},
-};
+  rules: {
+    'trailing-comma': 'on',
+    'no-duplicate-imports': 'off'
+  }
+}
