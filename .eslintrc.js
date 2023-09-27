@@ -5,13 +5,13 @@ module.exports = {
     node: true
   },
   extends: 'standard',
-  plugins: [commonjs],
+  plugins: [],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest'
   },
   rules: {
-    'trailing-comma': 'on',
-    'no-duplicate-imports': 'off'
+    'no-duplicate-imports': 'off',
+    'space-before-function-paren': 'off'
   }
 }

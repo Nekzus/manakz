@@ -1,7 +1,8 @@
 # manakz - Console Project Helper
 
-[![GitHub version](https://badge.fury.io/gh/Nekzus%2Fmanakz.svg)](https://www.npmjs.com/package/manakz)
-[![npm](https://img.shields.io/npm/dm/manakz.svg?maxAge=2592000)]()
+[![Github Workflow](https://github.com/nekzus/manakz/actions/workflows/publish.yml/badge.svg)](https://github.com/Nekzus/manakz/actions/workflows/publish.yml)
+[![npm version](https://img.shields.io/npm/v/manakz.svg)](https://www.npmjs.com/package/manakz)
+[![npm](https://img.shields.io/npm/dm/manakz.svg)](https://www.npmjs.com/package/manakz)
 
 manakz is a command-line tool designed to simplify common project-related tasks. It helps you open your project in Visual Studio Code, install dependencies if needed, and start a development server.
 
