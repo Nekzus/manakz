@@ -13,7 +13,8 @@
     "start": "node bin/openpj.js",
     "commit": "git-cz",
     "semantic-release": "semantic-release --branches main",
-    "dev": "node test/index.js"
+    "dev": "node test/index.js",
+    "lint:fix": "eslint --fix ./*.js"
   },
   "keywords": [
     "open project",
@@ -40,6 +41,11 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^8.50.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.1.0",
+    "eslint-plugin-promise": "^6.1.1",
     "semantic-release": "^22.0.5"
   },
   "config": {

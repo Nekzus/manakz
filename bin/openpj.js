@@ -1,13 +1,16 @@
 #!/usr/bin/env node
 
-const { openProject } = require("../lib/openpj");
 const { configureYargs } = require("../lib/cli");
-const { customColors } = require("../lib/helpers/utils");
+const { logMessage } = require("../lib/helpers/message");
+const { openProject } = require("../lib/openpj");
 
 const main = async () => {
   const argv = configureYargs().argv;
   try {
-    console.log(customColors.success("Starting Manakz..."));
+    logMessage({
+      color: "success",
+      text: "Starting Manakz...",
+    });
     const options = {
       install: argv.install || argv.i,
       start: argv.start || argv.s,
@@ -15,9 +18,19 @@ const main = async () => {
       yesToAll: argv.yes || argv.y,
     };
     await openProject(options);
-    console.log(customColors.success("🤟 Manakz completed successfully!"));
+    logMessage({
+      color: "success",
+      text: "Manakz completed successfully!",
+      emojiLt: "completed",
+    });
   } catch (error) {
-    console.error(customColors.error("👎 An error occurred:"), error.message);
+    logMessage({
+      color: "error",
+      text: "An error occurred:",
+      emojiLt: "thumbsDown",
+      item: error.message,
+      type: "error",
+    });
     process.exit(1);
   }
 };
