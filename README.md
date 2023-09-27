@@ -6,6 +6,10 @@
 
 manakz is a command-line tool designed to simplify common project-related tasks. It helps you open your project in Visual Studio Code, install dependencies if needed, and start a development server.
 
+<div align="center">
+<img width="500" alt="manakz" src="https://res.cloudinary.com/dsvsl0b0b/image/upload/v1695847516/npm-package/f1vbrsucnuwyhdlo0tjo.png">
+</div>
+
 ## Installation
 
 You can install manakz globally using npm:
