@@ -1,12 +1,12 @@
-# Archivos y carpetas generados automáticamente
+# Automatically generated files and folders
 node_modules/
 npm-debug.log
 yarn-error.log
 
-# Archivos de configuración local
+# Local configuration files
 .env
 
-# Carpetas específicas de sistemas de construcción
+# System-specific build folders
 /dist/
 /test/
 /.next/
@@ -14,7 +14,7 @@ yarn-error.log
 out/
 .nyc_output/
 
-# Archivos de respaldo
+# Backup files
 *.bak
 *.swp
 *.swo
