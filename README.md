@@ -83,4 +83,4 @@ Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## Contact
 
-If you have any questions or suggestions, please feel free to contact me at [maseortega@gmail.com](mailto:maseortega@gmail.com).
+If you have any questions or suggestions, please feel free to contact me at [nekzus.dev@gmail.com](mailto:nekzus.dev@gmail.com).
