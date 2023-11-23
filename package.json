@@ -1,5 +1,5 @@
 {
-  "name": "manakz",
+  "name": "@nekzus/manakz",
   "version": "0.0.0-development",
   "description": "Console Project Helper",
   "main": "./bin/openpj.js",
@@ -11,7 +11,7 @@
     "lib"
   ],
   "bin": {
-    "manakz": "./bin/openpj.js"
+    "manakz": "bin/openpj.js"
   },
   "scripts": {
     "start": "node ./bin/openpj.js",
@@ -42,7 +42,8 @@
     "yargs": "^17.7.2"
   },
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "devDependencies": {
     "cz-conventional-changelog": "^3.3.0",
@@ -61,10 +62,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nekzus/manakz.git"
+    "url": "git+https://github.com/Nekzus/manakz.git"
   },
   "bugs": {
     "url": "https://github.com/Nekzus/manakz/issues"
   },
-  "homepage": "https://github.com/Nekzus/manakz#readme"
+  "homepage": "https://github.com/Nekzus/manakz#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
