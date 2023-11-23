@@ -16,7 +16,7 @@
   "scripts": {
     "start": "node ./bin/openpj.js",
     "commit": "git-cz",
-    "semantic-release": "semantic-release",
+    "semantic-release": "semantic-release --branches main",
     "dev": "node test/index.js",
     "lint:fix": "eslint --fix ./*.js"
   },
