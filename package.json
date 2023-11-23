@@ -1,5 +1,5 @@
 {
-  "name": "@nekzus/manakz",
+  "name": "manakz",
   "version": "0.0.0-development",
   "description": "Console Project Helper",
   "main": "./bin/openpj.js",
