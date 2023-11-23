@@ -3,9 +3,9 @@
 > _Simplifying Your Development Tasks with Manakz: Open, Install, and Develop_
 
 [![Github Workflow](https://github.com/nekzus/manakz/actions/workflows/publish.yml/badge.svg?style=flat&&event=push)](https://github.com/Nekzus/manakz/actions/workflows/publish.yml)
-[![npm-version](https://img.shields.io/npm/v/manakz.svg?style=flat)](https://www.npmjs.com/package/manakz)
-[![npm-month](https://img.shields.io/npm/dm/manakz.svg?style=flat)](https://www.npmjs.com/package/manakz)
-[![npm-total](https://img.shields.io/npm/dt/manakz.svg?style=flat)](https://www.npmjs.com/package/manakz)
+[![npm-version](https://img.shields.io/npm/v/@nekzus/manakz.svg?style=flat)](https://www.npmjs.com/package/@nekzus/manakz)
+[![npm-month](https://img.shields.io/npm/dm/@nekzus/manakz.svg?style=flat)](https://www.npmjs.com/package/@nekzus/manakz)
+[![npm-total](https://img.shields.io/npm/dt/@nekzus/manakz.svg?style=flat)](https://www.npmjs.com/package/@nekzus/manakz)
 
 <div align="center">
 <img width="500" alt="manakz" src="https://res.cloudinary.com/dsvsl0b0b/image/upload/v1695847516/npm-package/f1vbrsucnuwyhdlo0tjo.png">
@@ -16,7 +16,7 @@
 You can install manakz globally using npm:
 
 ```
-npm install -g manakz
+npm install -g @nekzus/manakz
 ```
 
 ## Usage
