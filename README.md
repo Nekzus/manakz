@@ -2,6 +2,7 @@
 
 > _Simplifying Your Development Tasks with Manakz: Open, Install, and Develop_
 
+
 [![Github Workflow](https://github.com/nekzus/manakz/actions/workflows/publish.yml/badge.svg?style=flat&&event=push)](https://github.com/Nekzus/manakz/actions/workflows/publish.yml)
 [![npm-version](https://img.shields.io/npm/v/@nekzus/manakz.svg?style=flat)](https://www.npmjs.com/package/@nekzus/manakz)
 [![npm-month](https://img.shields.io/npm/dm/@nekzus/manakz.svg?style=flat)](https://www.npmjs.com/package/@nekzus/manakz)
